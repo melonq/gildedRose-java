@@ -16,3 +16,30 @@
 
 ## 待添加的功能
 1. 现在有一种名叫 “Conjured” 新商品等待出售，这种魔法召唤器比普通商品的品质下降要快两倍。
+
+## Example
+```
+  -------- day 0 --------
+  name, sellIn, quality
+  +5 Dexterity Vest, 10, 20
+  Aged Brie, -1, 0
+  Elixir of the Mongoose, 5, 7
+  Sulfuras, 0, 80
+  Sulfuras, -1, 80
+  Backstage pass, 15, 20
+  Backstage pass, 10, 49
+  Backstage pass, 5, 49
+  Conjured Mana Cake, 3, 6
+
+  -------- day 1 --------
+  name, sellIn, quality
+  +5 Dexterity Vest, 9, 19
+  Aged Brie, -2, 2
+  Elixir of the Mongoose, 4, 6
+  Sulfuras, 0, 80
+  Sulfuras, -1, 80
+  Backstage pass, 14, 21
+  Backstage pass, 9, 50
+  Backstage pass, 4, 50
+  Conjured Mana Cake, 2, 5
+```
